@@ -1,0 +1,1577 @@
+@import url('https://fonts.googleapis.com/css2?family=Siemreap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Content&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con-carou{
+    height: 300px;
+    
+}
+.con-carou img{
+    height: 300px;
+    border-radius: 10px;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(248, 248, 248);
+}
+/* start topbar  */
+    .borderlogo .mn{
+        margin-top: 10px;
+    }
+    .mn ul{
+        display: flex;
+    }
+    .mn ul li{
+        list-style-type: none;
+    }
+    .mn ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .mn ul li ul{
+        display: none;
+        transition: 0.3s;
+    }
+    .mn ul li:hover ul{
+        display: block;
+        transition: 0.3s;
+        border: 1px solid gainsboro;
+        border-radius: 5px;
+        margin-left: 20px;
+        padding-right: -10px;
+    }
+    .mn ul li ul:hover li{
+        transition: 0.3s;
+        padding-right: 20px;
+    }
+    .mn ul li ul li:hover {
+        color: #2f6dfb;
+    }
+  
+/* end topbar  */
+
+/* start headerbar */
+.copyrightweb{
+    background-color: rgb(91, 88, 88);
+    height: 50px;
+}
+.copyrightweb h5{
+    color: white;
+    padding-top: 15px;
+}
+.headerbar{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid gainsboro;
+}
+.borderlogo{
+    padding: 2px;
+}
+.register{
+    padding-top: 3px;
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.register a{
+    
+    padding: 10px;
+}
+.login{
+    background-color: #ceb6b6;
+    margin-left: 5px;
+    padding-left: 25px;
+    padding-top: 3px;
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid black; 
+}
+.login a{
+    padding: 10px;
+}
+.profile{
+    margin-left: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: red;
+}
+.menubar{
+    border-bottom: 2px solid gainsboro;
+}
+ul li{
+    margin-right: 5px;
+    transition: 0.5s;
+    padding-right: 25px;
+}
+ul li a{
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.nav-item a:hover{
+    transition: 0.5s;
+    background-color: rgb(0, 144, 163);
+    border-radius: 10px;
+    color: white;
+}
+.carousel{
+    position: relative;
+    padding-top: 5px;
+    margin: auto;
+    width: 97%;
+    height: 300px;
+    border-radius: 10px;
+}
+.imgcarousel img{
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: rebeccapurple;
+}
+.opacitycover{
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    opacity: 60%;
+}
+
+.inimage{
+    align-items: center;
+    
+    position: absolute;
+    top: 100px;
+}
+.inimage h3{
+    color: white;
+    padding-left: 400px;
+} 
+.searchitem{
+    margin-top: 15px;
+    margin-left: 490px;
+    width: 400px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.inimage input{
+    margin-left: 10px;
+    width: 250px;
+    padding: 8px;
+    background: none;
+    outline: none;
+    border: none;
+}
+.inimage button{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100px;
+    margin-left:35px;
+    height: 40px;
+    background-color: #cccccc;
+}
+.btnsea{
+    background: none;
+    outline: none;
+    border: none;
+}
+.menuinimage{
+    margin-top: 15px;
+    position: absolute;
+    width: 1000px;
+    left: 250px;
+}
+.menuinimage ul{
+    display: flex;
+}
+.menuinimage ul li{
+    height: 40px;
+    list-style-type: none;
+    background-color: rgb(240, 240, 240);
+    padding-top: 6px;
+    border-radius: 20px;
+}
+.menuinimage ul li a{
+    color:black;
+    text-decoration: none;   
+}
+.menuinimage ul li:hover{
+    background-color: rgb(200, 209, 209);
+}
+.rightdata{
+    display: flex;
+    width: 150px;
+
+}
+.titlmessage h5{
+    padding-right: 15px;
+}
+.buyicontopbar img{
+    margin-right: 15px;
+    width: 30px;
+}
+.bgfooter{
+    background-color: #037171;
+}
+.footermain{
+    margin: auto;
+    margin-top: 5px;
+    width: 95%;
+    height: 100%;
+}
+
+.logol{
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.logol img{
+    width: 100%;
+}
+.ullifooterl ul li{
+    list-style-type: none; 
+    color: white;  
+}
+.ullifooterr ul li{
+    list-style-type: none; 
+    color: white;  
+}
+.footertitle{
+    margin-top: 50px;
+}
+.footertitleLoca{
+    margin-top: 50px;
+}
+.footertitleLoca h6{
+    color: white;
+}
+.footertitleLoca h5{
+    color: white;
+}
+.footertitle h5{
+    color: white;
+}
+.footeremail{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.footeremail input{
+    padding-left: 10px;
+    background: none;
+    border: none;
+    outline: none;
+}
+.footeremail .bsearchitem .bbtnsea{
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 80px;
+    height: 40px;
+    margin-left: 124.8px;
+    color: rebeccapurple;
+    border: none;
+    outline: none;
+}
+.image-container {
+    width: 97%;
+    margin: auto;
+    margin-top: 10px;
+    height: 300px;
+    background-color: blue;
+}
+.cardimg{
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    background-color: rebeccapurple;
+}
+.cardimg img{
+    border-radius: 10px;
+    width: 100%;
+    height: 180px;
+}
+.titleimg h6{
+    margin-left: 5px;
+}
+.titleimg{
+    margin-top: 5px;
+}
+.cardimg .startimg img{
+    width: 20px;
+    height: 20px;
+}
+.startimg{
+    margin-left: 135px;
+}
+.collapse ul li a{
+    font-family: Khmer os Muol light ;
+}
+.postbar{
+    width: 96.5%;
+    margin-top: 5px;
+    height: 40px;
+    background-color: rgb(237, 97, 97);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.postbar p{
+    margin-top: 10px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+
+/* content two */
+.postbartwo{
+    width: 96.5%;
+    margin-top: 5px;
+    height: 40px;
+    margin-bottom: -5px;
+    background-color: rgb(13, 197, 178);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.postbartwo p{
+    margin-top: 10px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+.footerboxcontentone{
+    width: 87%;
+    height: 250px;
+}
+.pic1 img{
+    width: 50px;
+    height: 50px;
+}
+.pic2 img{
+    width: 50px;
+    height: 50px;
+}
+/* for phone  */
+@media (min-width:349px){
+    .inimage{
+        width: 100%;
+    }
+    .inimage .searchitem{
+        width: 300px;
+    }
+    .inimage .btnsea{
+        width: 60px;
+        margin-left: -25px;
+    }
+    .inimage h3{
+        margin-left: -60px;
+        font-size: 10px;
+    }
+    .menuinimage{
+        display: none;
+    }
+
+    /* .footeremail{
+        width: 250px;
+    }
+    .footeremail .bsearchitem{
+        width: 400px;    
+    }
+    .footeremail .bbtnsea{
+        position: absolute;
+        width: 100px;
+        right: 90px;
+    } */
+}
+
+
+/* sm  */
+@media (min-width:350px) and (max-width:575px){
+    .footeremail{
+        width: 250px;
+    }
+    .footeremail .bsearchitem{
+        width: 400px;    
+    }
+    .footeremail .bbtnsea{
+        position: absolute;
+        width: 100px;
+        right: 200px;
+    }
+    .priceitem{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        margin-top: 160px;
+        position: absolute;
+        height: 40px;
+        width: 80px;
+        background-color: rgb(243, 207, 218);
+    }
+    .priceitem h5{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .boxcontenttwo{
+        margin-top: 5px;
+        width: 97%;
+    }
+    .cardbody{    
+        border: 2px solid blue;    
+        margin-top: 5px;
+        height: auto;
+        background-color: rgb(151, 186, 163);
+        border-radius: 5px;  
+    }
+    .postbartwo .boximagetwo{
+        width: 100%;
+        height: 200px;
+    }
+    .boximagetwo img{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+    }
+    .boxtitletwo h5{
+        text-align: center;
+    }
+
+    .boxbuytwo{
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .boxbuytwo .boxbuyintwo{
+        position: relative;
+        margin: auto;
+        height: 100%;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin-bottom: 5px;
+        border: 2px solid rebeccapurple;
+    }
+    .boxbuytwo .boxbuyintwo:hover{
+        box-shadow: -1px 2px 4px 2px rgba(190, 144, 144, 0.5), 0 6px 20px 0 rgba(190, 144, 144, 0.5);
+     
+    }
+    .boxbuyintwo img{
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        width: 70%;
+    }
+    .borderlogo h5{
+        margin-top: 15px;
+    }
+    .ullifooterl ul{
+        margin-left: 10px;
+    }
+    .footertitleLoca{
+        margin-left: 10px;
+    }
+    .footertitle{
+        margin-left: 10px;
+    }
+    .footeremail{
+        margin-left: 10px;
+    }
+    .inimage h3{
+        padding-left: 95px;
+        font-size: 15px;
+    }
+    .searchitem{
+        margin-left: 35px;
+    }
+    .menuinimage{
+        width: 470px;
+        margin-left: -250px;
+    }
+    .menuinimage ul{
+        margin-left: 15px;
+        padding-left: 0;
+    }
+    .menuinimage ul li a{
+        font-size: 6px;
+    }
+    .carousel{
+        margin-top: 15px;
+    }
+    .rowfologo{
+        height: auto;
+        width: auto;
+
+        
+    }
+    .carousel-item{
+        width: 100%;
+        height: 250px;
+    }
+    .w{
+        width: 94%;
+    }
+    .boxcontentone{
+        margin-top: 5px;
+        width: 97%;
+    }
+    .cardbody{    
+        border: 2px solid blue;    
+        margin-top: 5px;
+        height: auto;
+        background-color: rgb(151, 186, 163);
+        border-radius: 5px;  
+    }
+    .boxcontentone .boximage{
+        width: 100%;
+        height: 200px;
+    }
+    .boximage img{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+    }
+    .boxtitle h5{
+        text-align: center;
+    }
+
+    .boxbuy{
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .boxbuy .boxbuyin{
+        position: relative;
+        margin: auto;
+        height: 100%;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin-bottom: 5px;
+        border: 2px solid rebeccapurple;
+    }
+    .boxbuy .boxbuyin:hover{
+        box-shadow: -1px 2px 4px 2px rgba(190, 144, 144, 0.5), 0 6px 20px 0 rgba(190, 144, 144, 0.5);
+     
+    }
+    .boxbuyin img{
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        width: 70%;
+    }
+
+    .footercol{
+        margin: auto;
+        width: 97%;
+    }
+
+    .boxtitletwo{
+        height: 70px;
+    }
+    .boxdescriptiontwo{
+        height: 100px;
+        overflow: hidden;
+    }
+    .copyrightweb h5{
+        font-size: 12px;
+    }
+    .borderlogo .mn ul{
+        display: none;
+    }
+
+
+
+}
+/* sm  */
+@media (min-width:576px) and (max-width:767px){
+    .footeremail{
+        width: 450px;
+    }
+    .footeremail .bsearchitem{
+        width: 300px;    
+    }
+    .footeremail .bbtnsea{
+        position: absolute;
+        right: 100px;
+    }
+    .borderlogo .mn ul{
+        display: none;
+    }
+    .priceitem{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        margin-top: 160px;
+        position: absolute;
+        height: 40px;
+        width: 80px;
+        background-color: rgb(243, 207, 218);
+    }
+    .priceitem h5{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .boxcontenttwo{
+        margin-top: 5px;
+        width: 97%;
+    }
+    .cardbody{    
+        border: 2px solid blue;    
+        margin-top: 5px;
+        height: auto;
+        background-color: rgb(151, 186, 163);
+        border-radius: 5px;  
+    }
+    .postbartwo .boximagetwo{
+        width: 100%;
+        height: 200px;
+    }
+    .boximagetwo img{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+    }
+    .boxtitletwo h5{
+        text-align: center;
+    }
+
+    .boxbuytwo{
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .boxbuytwo .boxbuyintwo{
+        position: relative;
+        margin: auto;
+        height: 100%;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin-bottom: 5px;
+        border: 2px solid rebeccapurple;
+    }
+    .boxbuytwo .boxbuyintwo:hover{
+        box-shadow: -1px 2px 4px 2px rgba(190, 144, 144, 0.5), 0 6px 20px 0 rgba(190, 144, 144, 0.5);
+     
+    }
+    .boxbuyintwo img{
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        width: 70%;
+    }
+    .borderlogo h5{
+        margin-top: 15px;
+    }
+    .inimage h3{
+        padding-left: 150px;
+        font-size: 20px;
+    }
+    .searchitem{
+        margin-left: 150px;
+    }
+    .menuinimage{
+        width: 470px;
+        margin-left: -140px;
+    }
+    .menuinimage ul{
+        margin-left: 15px;
+        padding-left: 0;
+    }
+    .menuinimage ul li a{
+        font-size: 6px;
+    }
+    .carousel{
+        margin-top: 15px;
+    }
+    .w{
+        margin: auto;
+        width: 95%;
+    }
+    .carouselimg{
+        height: 250px;
+        background-color: blue;
+    }
+    .carouselimg img{
+        width: 100%;
+        height: 250px;
+    }  
+
+    .boxcontentone{
+        margin-top: 5px;
+        width: 97%;
+    }
+    .cardbody{    
+        border: 2px solid blue;    
+        margin-top: 5px;
+        height: auto;
+        background-color: rgb(151, 186, 163);
+        border-radius: 5px;  
+    }
+    .boxcontentone .boximage{
+        width: 100%;
+        height: 200px;
+    }
+    .boximage img{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+    }
+    .boxbuy{
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .boxbuy .boxbuyin{
+        position: relative;
+        margin: auto;
+        height: 100%;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin-bottom: 5px;
+        border: 2px solid rebeccapurple;
+    }
+    .boxbuy .boxbuyin:hover{
+        box-shadow: -1px 2px 4px 2px rgba(190, 144, 144, 0.5), 0 6px 20px 0 rgba(190, 144, 144, 0.5);
+     
+    }
+    .boxbuyin img{
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        width: 70%;
+    }
+
+    .boxtitletwo{
+        height: 70px;
+    }
+    .boxdescriptiontwo{
+        height: 100px;
+        overflow: hidden;
+    }
+    .boxtitle{
+        height: 80px;
+    }
+    .boxtitle h5{
+        text-align: center;
+    }
+    
+}
+/* md  */
+@media (min-width:768px) and (max-width:991px){
+   
+    .priceitem{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        margin-top: 160px;
+        position: absolute;
+        height: 40px;
+        width: 80px;
+        background-color: rgb(243, 207, 218);
+    }
+    .priceitem h5{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .boxcontenttwo{
+        margin-top: 5px;
+        width: 97%;
+    }
+    .cardbody{    
+        border: 2px solid blue;    
+        margin-top: 5px;
+        height: auto;
+        background-color: rgb(151, 186, 163);
+        border-radius: 5px;  
+    }
+    .postbartwo .boximagetwo{
+        width: 100%;
+        height: 200px;
+    }
+    .boximagetwo img{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+    }
+    .boxtitletwo h5{
+        text-align: center;
+    }
+
+    .boxbuytwo{
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .boxbuytwo .boxbuyintwo{
+        position: relative;
+        margin: auto;
+        height: 100%;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin-bottom: 5px;
+        border: 2px solid rebeccapurple;
+    }
+    .boxbuytwo .boxbuyintwo:hover{
+        box-shadow: -1px 2px 4px 2px rgba(190, 144, 144, 0.5), 0 6px 20px 0 rgba(190, 144, 144, 0.5);
+     
+    }
+    .boxbuyintwo img{
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        width: 70%;
+    }
+    .borderlogo h5{
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    .inimage h3{
+        padding-left: 210px;
+        font-size: 25px;
+    }
+    .searchitem{
+        margin-left: 250px;
+    }
+    .menuinimage{
+        width: 700px;
+        margin-left: -140px;
+    }
+    .menuinimage ul li a{
+        font-size: 12px;
+    }
+
+    .carousel{
+        margin-top: 15px;
+    }
+    .w{
+        margin: auto;
+        width: 93%;
+    }
+    .boxcontentone{
+        margin-top: 5px;
+        justify-content: space-between;
+        width: 97%;
+    }
+    .row{
+        justify-content: space-between;
+    }
+
+    .cardbody{
+        width: 49.8%;
+        margin-top: 5px;
+        height: auto;
+        border-radius: 5px;
+        border: 2px solid rgb(5, 222, 1); 
+    }
+    .boxcontentone .boximage{
+        height: auto; 
+        border-radius: 5px;   
+    }
+    .boximage img{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+    }
+    .boxtitle h5{
+        text-align: center;
+    }
+
+    .boxbuy{
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .boxbuy .boxbuyin{
+        position: relative;
+        margin: auto;
+        height: 100%;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin-bottom: 5px;
+        border: 2px solid rebeccapurple;
+    }
+    .boxbuy .boxbuyin:hover{
+        box-shadow: -1px 2px 4px 2px rgba(190, 144, 144, 0.5), 0 6px 20px 0 rgba(190, 144, 144, 0.5);
+     
+    }
+    .boxbuyin img{
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        width: 70%;
+    }
+    .footercol{
+        width: 49.8%;
+        margin-bottom: 5px;
+    }
+
+    .boxtitletwo{
+        height: 70px;
+    }
+    .boxdescriptiontwo{
+        height: 100px;
+        overflow: hidden;
+    }
+    .boxtitle{
+        height: 80px;
+        overflow: hidden;
+    }
+
+    .boxdescriptiontwo{
+        height: 100px;
+        overflow: hidden;
+    }
+    .boxdescription{
+        height: 75px;
+        overflow: hidden;
+    }
+    .boxtitle{
+        height: 70px;
+        overflow: hidden;
+    }
+    .footeremail{
+        width: 400px;
+    }
+    .footeremail .bsearchitem{
+        width: 200px;    
+    }
+    .footeremail .bbtnsea{
+        position: absolute;
+    }
+   
+
+}
+/* xl */
+@media (min-width:992px) and (max-width:1199px){
+    .footeremail{
+        width: 300px;
+    }
+    .footeremail .bsearchitem{
+        width: 200px;    
+    }
+    .footeremail .bbtnsea{
+        position: absolute;
+        right: 10px;
+    }
+    .priceitem{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        margin-top: 160px;
+        position: absolute;
+        height: 40px;
+        width: 80px;
+        background-color: rgb(243, 207, 218);
+    }
+    .priceitem h5{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .boxcontenttwo{
+        margin-top: 5px;
+        width: 97%;
+    }
+    .cardbody{    
+        border: 2px solid blue;    
+        margin-top: 5px;
+        height: auto;
+        background-color: rgb(151, 186, 163);
+        border-radius: 5px;  
+    }
+    .postbartwo .boximagetwo{
+        width: 100%;
+        height: 200px;
+    }
+    .boximagetwo img{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+    }
+    .boxtitletwo h5{
+        text-align: center;
+    }
+
+    .boxbuytwo{
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .boxbuytwo .boxbuyintwo{
+        position: relative;
+        margin: auto;
+        height: 100%;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin-bottom: 5px;
+        border: 2px solid rebeccapurple;
+    }
+    .boxbuytwo .boxbuyintwo:hover{
+        box-shadow: -1px 2px 4px 2px rgba(190, 144, 144, 0.5), 0 6px 20px 0 rgba(190, 144, 144, 0.5);
+     
+    }
+    .boxbuyintwo img{
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        width: 70%;
+    }
+    .borderlogo h5{
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    .navbar-brand{
+        padding-left: 8px;
+    }
+    .inimage h3{
+        padding-left: 330px;
+        font-size: 25px;
+    }
+    .searchitem{
+        margin-left: 380px;
+    }
+    .menuinimage{
+        width: 700px;
+        margin-left: -35px;
+    }
+    .menuinimage ul li a{
+        font-size: 12px;
+    }
+    .carouselimg{
+        margin: auto;
+        width: 100%;
+        height: 140px;
+        background-color: blue;
+    }
+    .carousel-item{
+        height: 140px;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+    }
+    .w{
+        width: 92%;
+        margin: auto;
+    }
+    .boxcontentone{
+        margin-top: 5px;
+        justify-content: space-between;
+        width: 97%;
+    }
+    .row{
+        justify-content: space-between;
+    }
+
+    .cardbody{
+        width: 49.8%;
+        margin-top: 5px;
+        height: auto;
+        border-radius: 5px;
+        border: 2px solid rgb(5, 222, 1); 
+    }
+    .boxcontentone .boximage{
+        height: auto; 
+        border-radius: 5px;   
+    }
+    .boximage img{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+    }
+    .boxtitle h5{
+        text-align: center;
+    }
+
+    .boxbuy{
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .boxbuy .boxbuyin{
+        position: relative;
+        margin: auto;
+        height: 100%;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin-bottom: 5px;
+        border: 2px solid rebeccapurple;
+    }
+    .boxbuy .boxbuyin:hover{
+        box-shadow: -1px 2px 4px 2px rgba(190, 144, 144, 0.5), 0 6px 20px 0 rgba(190, 144, 144, 0.5);
+     
+    }
+    .boxbuyin img{
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        width: 70%;
+    }
+    .f ul li a{
+        font-size: 12px;
+    }
+
+    .boxtitletwo{
+        height: 70px;
+    }
+    .boxdescriptiontwo{
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .boxdescriptiontwo{
+        height: 100px;
+        overflow: hidden;
+    }
+    .boxdescription{
+        height: 75px;
+        overflow: hidden;
+    }
+    .boxtitle{
+        height: 70px;
+        overflow: hidden;
+    }
+
+}
+/* xxl */
+/* and (max-width: 1399px)  */
+@media (min-width: 1200px) and (max-width: 1399px){
+    .footeremail{
+        width: 300px;
+    }
+    .footeremail .bsearchitem{
+        width: 300px;    
+    }
+    .footeremail .bbtnsea{
+        position: absolute;
+        right: 100px;
+    }
+    .borderlogo .mn ul{
+        display: none;
+    }
+    .priceitem{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        margin-top: 160px;
+        position: absolute;
+        height: 40px;
+        width: 80px;
+        background-color: rgb(243, 207, 218);
+    }
+    .priceitem h5{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .boxcontenttwo{
+        margin-top: 5px;
+        width: 97%;
+    }
+    .cardbody{    
+        border: 2px solid blue;    
+        margin-top: 5px;
+        height: auto;
+        background-color: rgb(151, 186, 163);
+        border-radius: 5px;  
+    }
+    .postbartwo .boximagetwo{
+        width: 100%;
+        height: 200px;
+    }
+    .boximagetwo img{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+    }
+    .boxtitletwo h5{
+        text-align: center;
+    }
+
+
+    .boxbuytwo{
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .boxbuytwo .boxbuyintwo{
+        position: relative;
+        margin: auto;
+        height: 100%;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin-bottom: 5px;
+        border: 2px solid rebeccapurple;
+    }
+    .boxbuytwo .boxbuyintwo:hover{
+        box-shadow: -1px 2px 4px 2px rgba(190, 144, 144, 0.5), 0 6px 20px 0 rgba(190, 144, 144, 0.5);
+     
+    }
+    .boxbuyintwo img{
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        width: 70%;
+    }
+    .borderlogo h5{
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    .navbar-brand{
+        padding-left: 10px;
+    }
+    .inimage h3{
+        padding-left: 380px;
+        font-size: 25px;
+    }
+    .searchitem{
+        margin-left: 430px;
+    }
+    .menuinimage{
+        width: 700px;
+        margin-left: 16px;
+    }
+    .menuinimage ul li a{
+        font-size: 12px;
+    }
+    
+    
+    .bgl{
+        background-color: blue;
+    }
+    .f ul li a{
+        font-size: 15px;
+    }
+    .w{
+        margin: auto;
+        width: 88%;
+    }
+    .carouselimg{
+        margin: auto;
+        height: 140px;
+        border-radius: 10px;
+    }
+    .carouselimg img{
+        border-radius: 10px;
+        width: 100%;
+        height: 140px;
+    }
+    .boxcontentone{
+        margin-top: 5px;
+        width: 97%;
+    }
+    .row{
+        justify-content: space-evenly;
+    }
+    .cardbody{
+        
+        width: 24.7%;
+        margin-top: 5px;
+        height: auto;
+        border-radius: 5px;
+        border: 2px solid rgb(5, 222, 1); 
+    }
+    .boxcontentone .boximage{
+        height: auto; 
+        border-radius: 5px;   
+    }
+    .boximage img{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+    }
+    .boxtitle h5{
+        text-align: center;
+    }
+
+    .boxbuy{
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .boxbuy .boxbuyin{
+        position: relative;
+        margin: auto;
+        height: 100%;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin-bottom: 5px;
+        border: 2px solid rebeccapurple;
+    }
+    .boxbuy .boxbuyin:hover{
+        box-shadow: -1px 2px 4px 2px rgba(190, 144, 144, 0.5), 0 6px 20px 0 rgba(190, 144, 144, 0.5);
+     
+    }
+    .boxbuyin img{
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        width: 70%;
+    }
+    .footerboxcontentone{
+        width: 85%;
+    }
+
+
+    .boxtitletwo{
+        height: 70px;
+    }
+    .boxdescriptiontwo{
+        height: 100px;
+        overflow: hidden;
+    }
+    .boxdescription{
+        height: 75px;
+        overflow: hidden;
+    }
+    .boxtitle{
+        height: 70px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 1400px) {
+    
+    .priceitem{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        margin-top: 160px;
+        position: absolute;
+        height: 40px;
+        width: 80px;
+        background-color: rgb(243, 207, 218);
+    }
+    .priceitem h5{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .boxcontenttwo{
+        margin-top: 5px;
+        width: 97%;
+    }
+    .cardbody{    
+        border: 2px solid blue;    
+        margin-top: 5px;
+        height: auto;
+        background-color: rgb(151, 186, 163);
+        border-radius: 5px;  
+    }
+    .postbartwo .boximagetwo{
+        width: 100%;
+        height: 200px;
+    }
+    .boximagetwo img{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+    }
+    .boxtitletwo h5{
+        text-align: center;
+    }
+
+    .boxbuytwo{
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .boxbuytwo .boxbuyintwo{
+        position: relative;
+        margin: auto;
+        height: 100%;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin-bottom: 5px;
+        border: 2px solid rebeccapurple;
+    }
+    .boxbuytwo .boxbuyintwo:hover{
+        box-shadow: -1px 2px 4px 2px rgba(190, 144, 144, 0.5), 0 6px 20px 0 rgba(190, 144, 144, 0.5);
+     
+    }
+    .boxbuyintwo img{
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        width: 70%;
+    }
+    .borderlogo h5{
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    .navbar-brand{
+        padding-left: 10px;
+    }
+    .inimage h3{
+        padding-left: 480px;
+        font-size: 25px;
+    }
+    .searchitem{
+        margin-left: 530px;
+    }
+    .menuinimage{
+        width: 700px;
+        margin-left: 120px;
+    }
+    .menuinimage ul li a{
+        font-size: 12px;
+    }
+
+    .bgl{
+        background-color: rgb(164, 1, 31);
+    }
+    .f ul li a{
+        font-size: 18px;
+    }
+    .w{
+        margin: auto;
+        width: 88%;
+    }
+    .carouselimg{
+        margin: auto;
+        height: 140px;
+        border-radius: 10px;
+    }
+    .carouselimg img{
+        border-radius: 10px;
+        width: 100%;
+        height: 140px;
+    }
+    .boxcontentone{
+        margin-top: -1px;
+        width: 97%;
+    }
+    .row{
+        justify-content: space-evenly;
+    }
+
+    .cardbody{ 
+        position: relative;   
+        width: 24.7%;
+        margin-top: 5px;
+        height: auto;
+        border-radius: 5px;
+        border: 2px solid rgb(5, 222, 1); 
+    }
+    .boxcontentone .boximage{
+        height: auto; 
+        border-radius: 5px;   
+    }
+    .boximage img{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+    }
+    .pricein{
+        z-index: 1;
+        position: absolute;
+        top: 160px;
+        left: 260px;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #f2e2ea;
+    }
+
+    .boxtitle{
+        height: 60px;
+        margin-bottom: 5px;
+    }
+    .boxdescription p{
+        overflow: hidden;
+    }
+    .boxtitle h5{
+        text-align: center;
+    }
+    .boxdescription{
+        overflow: hidden;
+        height: 100px;
+    }
+
+    .boxbuy{
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .boxbuy .boxbuyin{
+        position: relative;
+        margin: auto;
+        height: 100%;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        margin-bottom: 5px;
+        border: 2px solid rebeccapurple;
+    }
+    .boxbuy .boxbuyin:hover{
+        box-shadow: -1px 2px 4px 2px rgba(190, 144, 144, 0.5), 0 6px 20px 0 rgba(190, 144, 144, 0.5);
+     
+    }
+    .boxbuyin img{
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        width: 70%;
+    }
+    .footerboxcontentone{
+        width: 85%;
+    }
+}
+.containerlogin{
+    top: 30%;
+    left: 15%;
+    z-index: 1;
+    position: absolute;   
+}
+.rl{
+    margin-top: 10px;
+}
+.rl a{
+    text-decoration: none;
+    color: white;
+}
+.rl .register{
+    background-color: rgb(255, 0, 0);
+    padding-left: 10px;
+}
+.rl .login{
+    background-color: rgb(0, 17, 255);
+    padding-left: 20px;
+}
+.login:hover{
+    background-color: #2f6dfb;
+}
+.register:hover{
+    background-color: #e93838;
+}
+
+
+.boxtitletwo{
+    height: 70px;
+}
+.boxdescriptiontwo{
+    height: 100px;
+    overflow: hidden;
+}
+
+/* connection with api home page content one*/

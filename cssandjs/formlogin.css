@@ -1,0 +1,144 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #23242a;       
+}
+.box
+{
+    position: relative;
+    width: 370px;
+    height: 450px;
+    background: #e4d8d8;
+    border-radius: 50px 5px;
+    overflow: hidden;
+}
+.box::before
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 370px;
+    height: 450px;
+    background: linear-gradient(100deg,transparent,#45f3ff,#45f3ff);
+    transform-origin: bottom right;
+    animation: animates  6s linear infinite;
+}
+@keyframes animates{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%
+    {
+        transform: rotate(0deg);
+    }
+}
+.box::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 370px;
+    height: 450px;
+    background: linear-gradient(60deg,transparent,#e5920c,#e5920c);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite ;
+    transition-delay: -3s;
+}
+      
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+} 
+form 
+{
+    position: absolute;
+    inset: 2px;
+    border-radius: 50px 5px;
+    background: #656363;
+    z-index: 10;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.boximag{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 110px;
+    overflow: hidden;
+}
+.boximag img{
+    width: 100%;
+    height: 100%;
+}
+
+label{
+    color: white;
+}
+.btnlog{
+    margin-left: 63px;
+    /* border: none; */
+    outline: none;
+    box-shadow: none;
+    height: 35px;
+    width: 220px;
+    border-radius: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.alink{
+    padding-left: 160px;
+}
+.box12{
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 50%;
+    /* background-color: red; */
+}
+.boxim{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e5920c;
+}
+.boxim{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e5920c;
+}
+.boxim{
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e5920c;
+}
+.boxim img{
+    width: 100%;
+    height: 100%;
+}
+
+.close{
+    border-radius: 50%;
+    margin-top: -12px;
+    margin-left: 331px;
+    position: absolute;
+}
+.close:hover img{
+    width: 26px;
+}
